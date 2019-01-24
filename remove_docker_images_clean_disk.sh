@@ -9,7 +9,7 @@
 #       OPTIONS: ---
 #  REQUIREMENTS: ---
 #          BUGS: ---
-#         NOTES: remove all docker images when disk space above 80%
+#         NOTES: remove all docker images when disk space above 80%. [crontab -e] */5 * * * * bash /scripts/remove-docker-images.sh >> /scripts/clean.log >/dev/null 2>&1
 #        AUTHOR: Ratul Basak, 
 #  ORGANIZATION: 
 #       CREATED: বৃহস্পতিবার 24 জানু 2019 11:19:52  +06

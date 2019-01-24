@@ -9,7 +9,7 @@
 #       OPTIONS: ---
 #  REQUIREMENTS: awscli [aws configure]
 #          BUGS: ---
-#         NOTES: Login to aws ecr
+#         NOTES: Login to aws ecr. [crontab -e] * */8 * * * /scripts/ecr_login.sh >> /scripts/cron.log
 #        AUTHOR: Ratul Basak, 
 #  ORGANIZATION: 
 #       CREATED: বৃহস্পতিবার 24 জানু 2019 11:28:06  +06
